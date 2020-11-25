@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project6 - Expence App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="upper">
+                <h1>Expense tracker app</h1>
+                <div class="contain">
+                    <h2>Balance: </h2>
+                    <h2 id="balance"> 0</h2>
+            
+                </div>
+                </div>
+            <div class="lower">
+                <div class="contain">
+                    <p>Income: </p>
+                    <p id="incomeBal">0</p>
+                
+                </div>
+                <div class="contain">
+                    <p>Outcome: </p>
+                    <p id="outcomeBal">0</p>
+                </div>
+                </div>
+        </div>
+        <div class="dashboard">
+                <h2>Dashboard</h2>
+                <div id="dugmad">
+                    <button id="incomebtn"class="">Income</button>
+                    <button id="close"type="submit">X</button>
+                    <button id="outcomebtn"class="">Outcome</button>
+                </div>
+                <div class="content">
+                    <ul id="incomeList" class="hide">
+                     
+                    </ul>
+                    <ul id="outcomeList"class="hide">
+                        
+                    </ul>
+                </div>
+                <hr>
+                <div id="entry">
+                    <input type="number" id="value" placeholder="Value">
+                    <input type="text"  id="name" placeholder="Name">
+                    <button type="submit" id="setValue">+</button>
+                </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
